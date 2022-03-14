@@ -13,31 +13,31 @@ const Product = sequelize.define(
       allowNull: false,
       primaryKey: true,
     },
-    name: {
+    productName: {
       type: STRING,
       autoIncrement: false,
       allowNull: false,
       primaryKey: false,
     },
-    price: {
+    productPrice: {
       type: FLOAT,
       autoIncrement: false,
       allowNull: false,
       primaryKey: false,
     },
-    description: {
+    productDescription: {
       type: STRING,
       autoIncrement: false,
       allowNull: false,
       primaryKey: false,
     },
-    imageUrl: {
+    productImageUrl: {
       type: STRING,
       autoIncrement: false,
       allowNull: false,
       primaryKey: false,
     },
-    merchant: {
+    productMerchant: {
       type: STRING,
       autoIncrement: false,
       allowNull: false,
@@ -49,7 +49,7 @@ const Product = sequelize.define(
       allowNull: false,
       primaryKey: false,
     },
-    websiteUrl: {
+    merchantStoreUrl: {
       type: STRING,
       autoIncrement: false,
       allowNull: false,
